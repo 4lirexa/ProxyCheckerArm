@@ -73,7 +73,7 @@ const spawnTest = async (url, last = false) => {
                 })
 
 
-                let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm`, { shell: true, cwd: __dirname });
+                let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm HEAD`, { shell: true, cwd: __dirname });
                 gitpush.on("error", function (err) {
                   console.log("gitpush error", err);
                   reject();
