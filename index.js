@@ -108,7 +108,7 @@ const spawnTest = async (url, last = false) => {
 };
 
 async function getNodes() {
-  let gitpull = spawn(`git stash && git pull https://${token}@github.com/4lirexa/ProxyCheckerArm`, { shell: true, cwd: __dirname });
+  let gitpull = spawn(`git stash && git pull https://${token}@github.com/4lirexa/ProxyCheckerArm main`, { shell: true, cwd: __dirname });
   gitpull.on("error", function (err) {
     console.log("gitpull error", err);
   });
