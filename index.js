@@ -4,9 +4,10 @@ const spawn = require("child_process").spawn;
 var cron = require("node-cron");
 const http = require("http");
 const doConvert = require("./convert/SSExtract").doConvert;
-require("dotenv").config();
-
-const token = process.env.TOKEN;
+require("dotenv").config()
+;
+const args = process.argv;
+const token = process.env.TOKEN || args[0];
 let isChecking = false;
 
 async function processLineByLine(filePath) {
