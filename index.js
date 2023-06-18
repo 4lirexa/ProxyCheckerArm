@@ -57,49 +57,49 @@ const spawnTest = async (url, last = false) => {
               reject();
             } else {
               console.log("File written");
-              if (last == true) {
-                fs.readFile(__dirname + "/proxies.txt", "utf-8", async (err, data) => {
-                  if (err) throw err;
-                  const results = doConvert(data);
-                  fs.readFile(__dirname + "/clashConfig.txt", "utf-8", async (err, headers) => {
-                    if (err) throw err;
-                    fs.writeFile(__dirname + "/clash.yaml", headers, { flag: "a" }, (error) => {
-                      if (error) throw error;
-                      fs.writeFile(__dirname + "/clash.yaml", results || "", { flag: "a" }, (error) => {
-                        if (error) throw error;
-                        let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm HEAD`, { shell: true, cwd: __dirname });
-                        gitpush.on("error", function (err) {
-                          console.log("gitpush error", err);
-                          reject();
-                        });
-
-                        gitpush.stdout.on("data", function (data) {
-                          console.log("stdout: " + data);
-                        });
-
-                        gitpush.stderr.on("data", function (data) {
-                          console.log("stderr: " + data);
-                        });
-
-                        gitpush.on("close", (code) => {
-                          resolve();
-                          console.log("finished all promises");
-                          console.log("git push exited with code " + code);
-                          isChecking = false;
-                        });
-                      });
-                    });
-                  });
-                });
-              } else {
-                resolve();
-              }
             }
           });
         });
       } else {
         console.log("rejected");
         reject();
+      }
+      if (last == true) {
+        fs.readFile(__dirname + "/proxies.txt", "utf-8", async (err, data) => {
+          if (err) throw err;
+          const results = doConvert(data);
+          fs.readFile(__dirname + "/clashConfig.txt", "utf-8", async (err, headers) => {
+            if (err) throw err;
+            fs.writeFile(__dirname + "/clash.yaml", headers, { flag: "a" }, (error) => {
+              if (error) throw error;
+              fs.writeFile(__dirname + "/clash.yaml", results || "", { flag: "a" }, (error) => {
+                if (error) throw error;
+                let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm HEAD`, { shell: true, cwd: __dirname });
+                gitpush.on("error", function (err) {
+                  console.log("gitpush error", err);
+                  reject();
+                });
+
+                gitpush.stdout.on("data", function (data) {
+                  console.log("stdout: " + data);
+                });
+
+                gitpush.stderr.on("data", function (data) {
+                  console.log("stderr: " + data);
+                });
+
+                gitpush.on("close", (code) => {
+                  resolve();
+                  console.log("finished all promises");
+                  console.log("git push exited with code " + code);
+                  isChecking = false;
+                });
+              });
+            });
+          });
+        });
+      } else {
+        resolve();
       }
     });
   });
