@@ -7,7 +7,9 @@ const doConvert = require("./convert/SSExtract").doConvert;
 require("dotenv").config()
 ;
 const args = process.argv;
+console.log('args',args);
 const token = process.env.TOKEN || args[0];
+console.log("token",token);
 let isChecking = false;
 
 async function processLineByLine(filePath) {
