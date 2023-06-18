@@ -3,8 +3,8 @@ const readline = require("readline");
 const spawn = require("child_process").spawn;
 var cron = require("node-cron");
 const http = require("http");
-const doConvert = require("./convert/SSExtract").doConvert
-require('dotenv').config()
+const doConvert = require("./convert/SSExtract").doConvert;
+require("dotenv").config();
 
 const token = process.env.TOKEN;
 let isChecking = false;
@@ -51,7 +51,7 @@ const spawnTest = async (url, last = false) => {
         const result = await fs.readFile(__dirname + "/lite/output.txt", "utf-8", async (err, data) => {
           if (err) throw err;
 
-          await fs.writeFile( __dirname +"/proxies.txt", data, { flag: "a" }, (error) => {
+          fs.writeFile(__dirname + "/proxies.txt", data, { flag: "a" }, async (error) => {
             if (error) {
               console.log("file write error", error);
               reject();
@@ -60,41 +60,39 @@ const spawnTest = async (url, last = false) => {
               if (last == true) {
                 fs.readFile(__dirname + "/proxies.txt", "utf-8", async (err, data) => {
                   if (err) throw err;
-                  const results = doConvert(data)
+                  const results = doConvert(data);
                   fs.readFile(__dirname + "/clashConfig.txt", "utf-8", async (err, headers) => {
                     if (err) throw err;
-                    await fs.writeFile( __dirname +"/clash.yaml", headers, { flag: "a" }, (error) => {
+                    fs.writeFile(__dirname + "/clash.yaml", headers, { flag: "a" }, (error) => {
                       if (error) throw error;
-                      fs.writeFile( __dirname +"/clash.yaml", results || "", { flag: "a" }, (error) => {
+                      fs.writeFile(__dirname + "/clash.yaml", results || "", { flag: "a" }, (error) => {
                         if (error) throw error;
-                      })
-                    })
-                  })
-                })
+                        let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm HEAD`, { shell: true, cwd: __dirname });
+                        gitpush.on("error", function (err) {
+                          console.log("gitpush error", err);
+                          reject();
+                        });
 
+                        gitpush.stdout.on("data", function (data) {
+                          console.log("stdout: " + data);
+                        });
 
-                let gitpush = spawn(`git add . && git commit -m "updateProxies" && git push https://${token}@github.com/4lirexa/ProxyCheckerArm HEAD`, { shell: true, cwd: __dirname });
-                gitpush.on("error", function (err) {
-                  console.log("gitpush error", err);
-                  reject();
+                        gitpush.stderr.on("data", function (data) {
+                          console.log("stderr: " + data);
+                        });
+
+                        gitpush.on("close", (code) => {
+                          resolve();
+                          console.log("finished all promises");
+                          console.log("git push exited with code " + code);
+                          isChecking = false;
+                        });
+                      });
+                    });
+                  });
                 });
-
-                gitpush.stdout.on("data", function (data) {
-                  console.log("stdout: " + data);
-                });
-
-                gitpush.stderr.on("data", function (data) {
-                  console.log("stderr: " + data);
-                });
-
-                gitpush.on("close", (code) => {
-                  resolve();
-                  console.log("finished all promises");
-                  console.log("git push exited with code " + code);
-                  isChecking = false;
-                });
-              }else{
-                resolve()
+              } else {
+                resolve();
               }
             }
           });
@@ -125,7 +123,7 @@ async function getNodes() {
     console.log("git pull exited with code " + code);
     if (code == 0) {
       isChecking = true;
-      fs.writeFile( __dirname + "/proxies.txt", "", (error) => {
+      fs.writeFile(__dirname + "/proxies.txt", "", (error) => {
         if (error) {
           console.log(error);
         } else {
@@ -137,7 +135,7 @@ async function getNodes() {
       let i = 1;
       for (const url of urls) {
         console.log("checking -> " + url);
-        await spawnTest(url, i == urls.length).catch(err=>console.log(err));
+        await spawnTest(url, i == urls.length).catch((err) => console.log(err));
         i++;
       }
     }
@@ -152,12 +150,12 @@ cron.schedule("* 1 * * *", () => {
 });
 
 const server = http.createServer((req, res) => {
-  if(req.url == "/"){
+  if (req.url == "/") {
     res.writeHead(200, { "Content-Type": "text/plain" });
     const data = fs.readFileSync(__dirname + "/proxies.txt", "utf-8");
     res.end(data);
   }
-  if(req.url == "/clash"){
+  if (req.url == "/clash") {
     res.writeHead(200, { "Content-Type": "text/plain" });
     const data = fs.readFileSync(__dirname + "/clash.yaml", "utf-8");
     res.end(data);
