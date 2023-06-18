@@ -153,3 +153,36 @@ proxies-names:
   - vmess_66
   - ss_67
   - ss_68
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - {"type":"vmess","server":"vus3.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/chat","headers":{"Host":"vus3.0bad.com"}},"name":"vmess_0"}
+  - {"type":"vmess","server":"vus5.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/chat","headers":{"Host":"vus5.0bad.com"}},"name":"vmess_1"}
+  - {"server":"62.12.116.66","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_2"}
+  - {"server":"52.35.87.249","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_3"}
+  - {"type":"vmess","server":"x.leonard.eu.org","port":443,"uuid":"1441af41-5cee-497e-a47c-c26af169f9ff","alterId":0,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/","headers":{"Host":"x.leonard.eu.org"}},"name":"vmess_4"}
+  - {"type":"vmess","server":"23.224.110.183","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/path/080712342310","headers":{"Host":"23.224.110.183"}},"name":"vmess_5"}
+  - {"type":"vmess","server":"23.224.110.182","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/path/080712342310"},"name":"vmess_6"}
+  - {"type":"vmess","server":"23.224.110.184","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true,"ws-opts":{"path":"/path/080712342310"},"name":"vmess_7"}
+
+proxies-names:
+  - vmess_0
+  - vmess_1
+  - ss_2
+  - ss_3
+  - vmess_4
+  - vmess_5
+  - vmess_6
+  - vmess_7
