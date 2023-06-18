@@ -5,4 +5,3 @@ https://github.com/mahdibland/V2RayAggregator/raw/master/sub/splitted/ss.txt
 https://github.com/mahdibland/V2RayAggregator/blob/master/sub/splitted/ssr.txt
 https://github.com/mahdibland/V2RayAggregator/blob/master/sub/splitted/trojan.txt
 https://github.com/mahdibland/V2RayAggregator/blob/master/sub/splitted/vmess.txt
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt
