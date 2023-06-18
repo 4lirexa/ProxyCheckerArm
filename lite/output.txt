@@ -1,6 +1,6 @@
-trojan://TJCfE7Mx2YcA8kX8zg@uk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AC%F0%9F%87%A7GB-149.50.77.133-0880</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp3.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.70.110-0840</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp3.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.70.110-2052</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.171-0205</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.171-2054</td>
+trojan://TJCfE7Mx2YcA8kX8zg@us3.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.69.137-0215</td>
 trojan://TJCfE7Mx2YcA8kX8zg@nl2.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.204-0781</td>
+trojan://TJCfE7Mx2YcA8kX8zg@jp3.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.70.110-0840</td>
+trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.171-0205</td>
+trojan://TJCfE7Mx2YcA8kX8zg@us2.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.68.137-0187</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl3.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.89.115-1681</td>
