@@ -8,7 +8,7 @@ require("dotenv").config()
 ;
 const args = process.argv;
 console.log('args',args);
-const token = process.env.TOKEN || args[0];
+const token = process.env.TOKEN || args[2];
 console.log("token",token);
 let isChecking = false;
 
