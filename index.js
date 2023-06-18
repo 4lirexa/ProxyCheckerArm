@@ -70,7 +70,7 @@ const spawnTest = async (url, last = false) => {
           const results = doConvert(data);
           fs.readFile(__dirname + "/clashConfig.txt", "utf-8", async (err, headers) => {
             if (err) throw err;
-            fs.writeFile(__dirname + "/clash.yaml", headers, { flag: "a" }, (error) => {
+            fs.writeFile(__dirname + "/clash.yaml", headers, (error) => {
               if (error) throw error;
               fs.writeFile(__dirname + "/clash.yaml", results || "", { flag: "a" }, (error) => {
                 if (error) throw error;
