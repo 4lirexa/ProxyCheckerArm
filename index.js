@@ -143,7 +143,7 @@ async function getNodes() {
 }
 
 getNodes();
-cron.schedule("*/30 * * * *", () => {
+cron.schedule("*/15 * * * *", () => {
   if (isChecking == false) {
     getNodes();
   }
