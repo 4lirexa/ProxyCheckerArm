@@ -3,7 +3,7 @@
     "speedtestMode":"speedonly",
     "pingMethod":"googleping",
     "sortMethod":"rspeed",
-    "concurrency":100,
+    "concurrency":30,
     "testMode":2,
     "subscription":"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt",
     "timeout":16,
