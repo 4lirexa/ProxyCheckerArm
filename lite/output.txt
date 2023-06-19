@@ -1,3 +1,4 @@
-trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.111-0198</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl2.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.207-0717</td>
+trojan://7a73f1dc97a70905870c0c0484b12145@trs22.bolab.net:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-133.242.55.38-0223</td>
+trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.174-0754</td>
 trojan://TJCfE7Mx2YcA8kX8zg@uk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AC%F0%9F%87%A7GB-149.50.77.137-0824</td>
-trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@h961359.waihuizhibiaowang.com:13343?security=tls#%F0%9F%87%A8%F0%9F%87%B3CN-139.227.254.126-11231</td>
