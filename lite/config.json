@@ -1,9 +1,9 @@
 {
     "group":"job",
-    "speedtestMode":"pingonly",
+    "speedtestMode":"all",
     "pingMethod":"googleping",
-    "sortMethod":"rping",
-    "concurrency":100,
+    "sortMethod":"rspeed",
+    "concurrency":50,
     "testMode":2,
     "subscription":"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt",
     "timeout":16,
