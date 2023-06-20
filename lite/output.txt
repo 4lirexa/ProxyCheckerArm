@@ -1,7 +1,6 @@
-trojan://c32c56fb-64d9-33c4-b42a-af81b7a33fe7@hnm.xiaohouzi.club:23330?security=tls&amp;sni=defapress.ir#%F0%9F%87%B9%F0%9F%87%BCTW-36.227.230.135-13198</td>
-trojan://TJCfE7Mx2YcA8kX8zg@us3.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.69.138-2091</td>
-trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.88-0792</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp3.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.70.111-0760</td>
 trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.112-0174</td>
+trojan://c32c56fb-64d9-33c4-b42a-af81b7a33fe7@hnm.xiaohouzi.club:23330?security=tls&amp;sni=defapress.ir#%F0%9F%87%B9%F0%9F%87%BCTW-36.227.230.135-13198</td>
+trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.88-0792</td>
 trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.175-0768</td>
-trojan://TJCfE7Mx2YcA8kX8zg@us2.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.68.139-0229</td>
+trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.175-2022</td>
+trojan://40297165-0545-4f8f-abc4-3ee25e6cfb87@jp.stablize.top:443?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-20.187.74.213-1291</td>
