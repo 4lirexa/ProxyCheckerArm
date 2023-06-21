@@ -1,3 +1,4 @@
 trojan://TJCfE7Mx2YcA8kX8zg@us3.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.69.139-2117</td>
-trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.113-0203</td>
+trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.99-0798</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl2.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.210-0213</td>
 trojan://TJCfE7Mx2YcA8kX8zg@us3.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.69.139-0185</td>
