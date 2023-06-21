@@ -1,2 +1,2 @@
 trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.99-0798</td>
-trojan://5b51e0af-08af-4208-b834-6d6ac5721837@sg.stablize.top:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-20.89.51.187-1341</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.113-0203</td>
