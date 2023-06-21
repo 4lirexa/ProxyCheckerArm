@@ -1,2 +1,5 @@
-trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.95-0848</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.112-2093</td>
 trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.112-0172</td>
+trojan://7a73f1dc97a70905870c0c0484b12145@trs19.bolab.net:443?security=tls&amp;sni=trs19.bolab.net#%F0%9F%87%AF%F0%9F%87%B5JP-153.125.145.150-1343</td>
+trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.95-0848</td>
+trojan://TJCfE7Mx2YcA8kX8zg@us1.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.67.154-2151</td>
