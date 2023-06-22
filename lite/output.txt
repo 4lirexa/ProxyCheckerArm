@@ -1,0 +1,6 @@
+trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@assets.flareai.site:13243?security=tls#%F0%9F%87%A8%F0%9F%87%B3CN-120.241.117.59-1940</td>
+trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@assets.flareai.site:13343?security=tls#%F0%9F%87%A8%F0%9F%87%B3CN-120.241.117.59-1941</td>
+trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@assets.flareai.site:13543?security=tls#%F0%9F%87%A8%F0%9F%87%B3CN-120.241.117.59-1939</td>
+trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@h961359.waihuizhibiaowang.com:13343?security=tls#%F0%9F%87%A8%F0%9F%87%B3CN-139.227.254.126-11633</td>
+trojan://535b9369-31d4-4685-9bb5-7c223d383524@in01.170203.xyz:443?security=tls&amp;sni=in01.170203.xyz#%F0%9F%87%AE%F0%9F%87%B3IN-52.66.56.192-0838</td>
+trojan://TJCfE7Mx2YcA8kX8zg@nl1.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.113-0187</td>
