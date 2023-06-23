@@ -13,29 +13,26 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"server":"54.199.83.239","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_0"}
-  - {"server":"89.163.140.153","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_1"}
-  - {"server":"31.171.153.181","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_2"}
+  - {"server":"62.12.116.66","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_0"}
+  - {"server":"31.171.153.181","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_1"}
+  - {"type":"vmess","server":"165.1.72.46","port":8080,"uuid":"88c6d12b-614f-485f-83fc-fb0cc57c4801","alterId":0,"cipher":"auto","network":"ws","tls":false,"ws-opts":{"path":"/"},"name":"vmess_2"}
   - {"server":"121.127.46.147","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_3"}
   - {"server":"185.90.61.153","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_4"}
-  - {"server":"192.71.211.161","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_5"}
-  - {"server":"54.255.237.136","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_6"}
-  - {"server":"185.135.86.173","port":"9003","type":"ss","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP","name":"ss_7"}
-  - {"server":"54.190.212.115","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_8"}
-  - {"server":"54.199.41.65","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_9"}
-  - {"server":"62.12.116.66","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_10"}
-  - {"server":"190.103.179.23","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_11"}
-  - {"server":"3.38.211.225","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_12"}
-  - {"server":"37.235.49.162","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_13"}
-  - {"server":"37.235.49.152","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_14"}
-  - {"server":"jp3.lianpi.xyz","port":"34234","type":"ss","cipher":"chacha20-ietf-poly1305","password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","name":"ss_15"}
-  - {"server":"171.22.254.17","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_16"}
-  - {"server":"37.235.55.21","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_17"}
+  - {"server":"89.163.140.153","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_5"}
+  - {"server":"54.199.83.239","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_6"}
+  - {"server":"43.202.55.210","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_7"}
+  - {"server":"3.112.73.233","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_8"}
+  - {"server":"37.235.55.42","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_9"}
+  - {"server":"54.255.237.136","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_10"}
+  - {"server":"54.199.41.65","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_11"}
+  - {"server":"192.71.211.161","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_12"}
+  - {"server":"190.103.179.23","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_13"}
+  - {"server":"138.59.16.146","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_14"}
 
 proxies-names:
   - ss_0
   - ss_1
-  - ss_2
+  - vmess_2
   - ss_3
   - ss_4
   - ss_5
@@ -48,6 +45,3 @@ proxies-names:
   - ss_12
   - ss_13
   - ss_14
-  - ss_15
-  - ss_16
-  - ss_17
