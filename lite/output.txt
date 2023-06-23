@@ -1,4 +1,4 @@
-trojan://TJCfE7Mx2YcA8kX8zg@uk1.chuqiangtou.net:4003?security=tls&amp;sni=CrV2ray.info#%F0%9F%87%AC%F0%9F%87%A7GB-149.50.77.148-0141</td>
+trojan://TJCfE7Mx2YcA8kX8zg@au1.chuqiangtou.net:4003?security=tls#%F0%9F%87%A6%F0%9F%87%BAAU-149.50.83.126-0833</td>
 trojan://TJCfE7Mx2YcA8kX8zg@hk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-149.50.84.114-0798</td>
-trojan://4cfb5b98-5a9d-4c6d-8911-25deca297fa1@air-toyko13.900513.xyz:7708?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-150.230.101.140-0156</td>
-trojan://TJCfE7Mx2YcA8kX8zg@nl2.chuqiangtou.net:4003?security=tls#%F0%9F%87%B3%F0%9F%87%B1NL-149.50.75.214-0142</td>
+trojan://TJCfE7Mx2YcA8kX8zg@us3.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.69.139-0100</td>
+trojan://TJCfE7Mx2YcA8kX8zg@us2.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.68.145-0197</td>
