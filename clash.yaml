@@ -13,26 +13,27 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"server":"13.212.54.104","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_0"}
-  - {"server":"121.127.46.147","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_1"}
-  - {"server":"62.12.116.66","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_2"}
-  - {"server":"54.255.237.136","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_3"}
-  - {"server":"185.90.61.153","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_4"}
-  - {"server":"192.71.211.161","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_5"}
-  - {"server":"31.171.153.181","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_6"}
-  - {"server":"54.199.83.239","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_7"}
-  - {"server":"138.59.16.146","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_8"}
-  - {"server":"13.213.46.196","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_9"}
-  - {"server":"170.80.111.5","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_10"}
-  - {"server":"37.235.49.152","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_11"}
-  - {"server":"171.22.254.17","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_12"}
-  - {"server":"37.235.55.42","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_13"}
-  - {"server":"192.71.166.102","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_14"}
-  - {"server":"46.183.184.61","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_15"}
-  - {"server":"190.103.179.23","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_16"}
-  - {"type":"ssr","server":"sg-am3.eqsunshine.com","port":"32001","protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","obfsparam":"","remarks":"ð¸ð¬SG-13.215.141.246-14988","protoparam":"","name":"ssr_17"}
-  - {"type":"ssr","server":"kr1.vfun.icu","port":"443","protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"plain","password":"vyunme","obfsparam":"ab93117422.jd.hk","remarks":"ð¸ð¬SG-13.229.239.158-1036","protoparam":"17422:TTp0SX","name":"ssr_18"}
-  - {"type":"ssr","server":"fr-am1-5.eqsunshine.com","port":"8181","protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"RcfVcDzzB","obfsparam":"","remarks":"ð«ð·FR-15.188.246.236-0771","protoparam":"","name":"ssr_19"}
+  - {"server":"18.183.217.240","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_0"}
+  - {"server":"54.255.237.136","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_1"}
+  - {"server":"13.212.54.104","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_2"}
+  - {"server":"62.12.116.66","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_3"}
+  - {"server":"54.199.83.239","port":"2333","type":"ss","cipher":"aes-256-cfb","password":"doub.io","name":"ss_4"}
+  - {"server":"31.171.153.181","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_5"}
+  - {"server":"192.71.211.161","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_6"}
+  - {"server":"121.127.46.147","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_7"}
+  - {"type":"vmess","server":"209.38.196.78","port":80,"uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"cipher":"auto","network":"ws","tls":false,"ws-opts":{"path":"/oSiR4t7dQow0J9ea3kKkF"},"name":"vmess_8"}
+  - {"server":"185.90.61.153","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_9"}
+  - {"server":"13.215.46.225","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_10"}
+  - {"server":"13.215.175.189","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_11"}
+  - {"server":"170.80.111.5","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_12"}
+  - {"server":"3.38.211.225","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_13"}
+  - {"server":"37.235.49.152","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_14"}
+  - {"server":"37.235.55.42","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_15"}
+  - {"server":"171.22.254.17","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_16"}
+  - {"server":"54.199.41.65","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_17"}
+  - {"server":"192.71.166.102","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_18"}
+  - {"server":"3.112.28.34","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","name":"ss_19"}
+  - {"server":"138.59.16.146","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"ss_20"}
 
 proxies-names:
   - ss_0
@@ -43,7 +44,7 @@ proxies-names:
   - ss_5
   - ss_6
   - ss_7
-  - ss_8
+  - vmess_8
   - ss_9
   - ss_10
   - ss_11
@@ -52,6 +53,7 @@ proxies-names:
   - ss_14
   - ss_15
   - ss_16
-  - ssr_17
-  - ssr_18
-  - ssr_19
+  - ss_17
+  - ss_18
+  - ss_19
+  - ss_20
