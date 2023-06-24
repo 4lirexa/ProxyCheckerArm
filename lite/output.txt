@@ -1,7 +1,0 @@
-trojan://TJCfE7Mx2YcA8kX8zg@uk1.chuqiangtou.net:4003?security=tls#%F0%9F%87%AC%F0%9F%87%A7GB-149.50.77.150-1622</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp3.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.70.114-0805</td>
-trojan://7a73f1dc97a70905870c0c0484b12145@trs22.bolab.net:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-133.242.55.38-0865</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.178-0799</td>
-trojan://TJCfE7Mx2YcA8kX8zg@jp2.chuqiangtou.net:4003?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-149.50.71.178-1972</td>
-trojan://TJCfE7Mx2YcA8kX8zg@us2.chuqiangtou.net:4003?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-149.50.68.145-0166</td>
-trojan://4cfb5b98-5a9d-4c6d-8911-25deca297fa1@air-london13.900513.xyz:7738?security=tls#%F0%9F%87%AC%F0%9F%87%A7GB-130.162.176.72-0179</td>
